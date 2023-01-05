@@ -49,7 +49,7 @@ function App() {
 
     let cal;
     switch (operator) {
-      case "/":
+      case "&#247":
         cal = String(parseFloat(preState) / parseFloat(curState));
         break;
       case "+":

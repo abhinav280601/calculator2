@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Josefin+Sans&family=Roboto:wght@300&display=swap');
 @import url("https://fontlibrary.org/face/segment7");
 
 *{
@@ -8,16 +9,16 @@
   -webkit-user-select: none;
   -webkit-user-drag:none;
   -webkit-app-region:none;
-  font-weight: bold;
-  color: #4F2164;
+  font-weight: bolder;
   border-width: thick;
+  color: #4F2164;
 }
 
 body{
   background-color: #FF7BAD;
   display: grid;
   place-content: center;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 3rem;
   height: 100vh;
 }
@@ -27,6 +28,7 @@ body{
   background-color:#919FBC;
   border-radius:4rem;
   border-bottom: #4F2164;
+  border-bottom-width: thick;
   border-bottom-style: solid;
   -webkit-box-shadow: -12px 8px 5px 7px rgba(102, 91, 102, 0.3);
 -moz-box-shadow: -12px 8px 5px 7px rgba(102, 91, 102, 0.3);
@@ -70,6 +72,7 @@ box-shadow: inset -18px 1px 5px -2px rgba(102, 91, 102, 0.3), 0px 15px 5px -2px 
   overflow: hidden;
 }
 .input_container{
+  position: relative;
   background-color: #9BEBFC;
   height:95%;
   border-style: solid;
@@ -98,7 +101,7 @@ box-shadow: inset -2px -16px 5px -2px rgba(102, 91, 102, 0.3);
   cursor: pointer;
   font-weight:bolder;
   color: #4F2164;
-
+  font-family: 'Josefin Sans';
   -webkit-box-shadow: inset 10px -10px 5px -2px rgba(102, 91, 102, 0.3);;
 -moz-box-shadow: inset 10px -10px 5px -2px rgba(102, 91, 102, 0.3);;
 box-shadow: inset 10px -10px 5px -2px rgba(102, 91, 102, 0.3);;
@@ -127,4 +130,11 @@ box-shadow: inset 10px -10px 5px -2px rgba(102, 91, 102, 0.3);;
 .orange:hover{
   background-color: white;
   color: orange;
+}
+
+
+.btn:active {
+  background-color:  #4F2164;
+  box-shadow: 0 5px #fff;
+  transform: translateY(4px);
 }
