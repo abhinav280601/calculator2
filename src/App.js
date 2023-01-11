@@ -149,14 +149,17 @@ function App() {
             <div className="btn" onClick={equals}>
               =
             </div>
-            <button className="btn" onClick={() => setFlip(!flip)}>
+            <button className="btn history" onClick={() => setFlip(!flip)}>
               History
             </button>
           </div>
 
-          <div className="wrapper">
-            <button className="btn" onClick={() => setFlip(!flip)}>
-              History
+          <div className="container_flip">
+            <div className="display_container">
+              <p>HISTORY</p>
+            </div>
+            <button className="btn back" onClick={() => setFlip(!flip)}>
+              back
             </button>
           </div>
         </ReactCardFlip>
