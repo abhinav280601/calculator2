@@ -23,7 +23,7 @@ body{
   height: 100vh;
 }
 .u_container{
-  height: 80vh;
+  height: 75vh;
   width: 60vh;
   background-color:#919FBC;
   border-radius:4rem;
@@ -37,7 +37,7 @@ box-shadow: -12px 8px 5px 7px rgba(102, 91, 102, 0.3);
 }
 
 .container{
-  height: 75vh;
+  height: 70vh;
   width: 60vh;
   background-color:#919FBC;
   border-radius:4rem;
