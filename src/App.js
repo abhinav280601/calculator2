@@ -100,7 +100,6 @@ function App() {
               )}
             </div>
           </div>
-
           <div className="btn" onClick={inputNum}>
             7
           </div>
