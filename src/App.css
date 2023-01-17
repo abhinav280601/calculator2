@@ -164,13 +164,26 @@ box-shadow: inset 10px -10px 5px -2px rgba(102, 91, 102, 0.3);;
   background-color: #9BEBFC;
   height:90%;
   margin:0.5% 1% 1% 1%;
-  font-size: 4rem;
-  font-family: 'Segment7Standard';
+  font-size: 2rem;
   font-weight: normal; 
   word-wrap: break-word;
   line-height: 80px; 
-  border-radius: 5%;                             
+  border-radius: 5%;  
+  overflow-y: auto;  
+  text-align: center;                         
 }
+
+
+  .display_container::-webkit-scrollbar {
+  width: 4px;
+  border-radius: 5px;
+
+  }
+  .display_container::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgb(63, 63, 63);
+  }
+
 
 .container_flip{
   height: 65vh;
